@@ -34,7 +34,7 @@ class Home extends Component<any, { filmes: any[] }> {
                                     {filme.nome}
                                 </strong>
                                 <img src={filme.foto} alt='Capa'></img>
-                                <Link to='/' >
+                                <Link to={`/filme/${filme.id}`} >
                                     Acessar
                                 </Link>
                             </article>
